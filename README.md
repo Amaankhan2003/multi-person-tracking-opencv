@@ -121,5 +121,5 @@ Extremely dense crowds may reduce tracking accuracy
 
 ## 👤 Author
 
-Amaan
+### Amaan
 Computer Vision & AI Enthusiast
