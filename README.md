@@ -30,7 +30,7 @@ Bounding Boxes + Unique IDs
 Output Video
 
 
-### Why YOLOv8 + DeepSORT?
+## Why YOLOv8 + DeepSORT?
 - **YOLOv8** provides fast and accurate person detection
 - **DeepSORT** ensures ID consistency using:
   - Kalman filtering (motion prediction)
@@ -64,17 +64,17 @@ multi-person-tracking-opencv/
 
 ## ⚙️ Installation
 
-### 1️⃣ Clone the repository
+## 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/<your-username>/multi-person-tracking-opencv.git
 cd multi-person-tracking-opencv
 ```
 
-###2️⃣ Create and activate virtual environment
+##2️⃣ Create and activate virtual environment
 
 python -m venv venv
 venv\Scripts\activate   # Windows
-###▶️ How to Run
+##▶️ How to Run
 
 Place a valid video file in the project directory
 Rename it to:
