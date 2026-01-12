@@ -64,23 +64,26 @@ multi-person-tracking-opencv/
 
 ## ⚙️ Installation
 
-## 1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/<your-username>/multi-person-tracking-opencv.git
 cd multi-person-tracking-opencv
 ```
 
-##2️⃣ Create and activate virtual environment
-
+### 2️⃣ Create and activate virtual environment
+```bash
 python -m venv venv
 venv\Scripts\activate   # Windows
-##▶️ How to Run
+```
+
+### ▶️ How to Run
 
 Place a valid video file in the project directory
 Rename it to:
+```bash
 input_video.mp4
-
-###📤 Output
+```
+### 📤 Output
 
 A real-time window displaying:
 
@@ -88,9 +91,11 @@ Bounding boxes around detected people
 
 Unique ID labels (Person-1, Person-2, …)
 
-Output video saved as:  output_tracked_video.avi
-
-###🎯 Use Cases
+Output video saved as:
+```bash
+output_tracked_video.avi
+```
+## 🎯 Use Cases
 
 Surveillance and security systems
 
@@ -102,7 +107,7 @@ Computer vision learning projects
 
 Multi-object tracking demonstrations
 
-###📌 Notes & Limitations
+## 📌 Notes & Limitations
 
 Input video must not be empty or corrupted
 
@@ -114,7 +119,7 @@ Indoor or surveillance-style videos
 
 Extremely dense crowds may reduce tracking accuracy
 
-###👤 Author
+## 👤 Author
 
 Amaan
 Computer Vision & AI Enthusiast
